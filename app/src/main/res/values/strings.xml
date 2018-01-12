@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpeechToTextANDTextToSpeech</string>
+
+    <string name="slt">SmarTech</string>
+
+    <string name="tts">Text To Speech</string>
+    <string name="stt">Speech To Text</string>
+    <string name="hint">Write Something</string>
+    <string name="tap">Tap On mic to speak</string>
+</resources>

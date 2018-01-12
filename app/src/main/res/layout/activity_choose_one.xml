@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFAA"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    tools:context="com.smartech.dd.speechtotextandtexttospeech.ChooseOne">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_marginBottom="50dp"
+        android:text="Choose One "
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech"
+        android:textStyle="normal"
+        android:onClick="onClickTTS"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tts"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Speech To Text"
+        android:textStyle="normal"
+        android:onClick="onClickSTT"
+        android:id="@+id/stt"
+        />
+
+</LinearLayout>
